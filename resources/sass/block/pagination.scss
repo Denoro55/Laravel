@@ -1,0 +1,17 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.page-item .page-link {
+    background-color: #ddd;
+    padding: 5px 8px;
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.page-item.active .page-link {
+    background-color: $color_accent;
+}

@@ -1,1 +1,10 @@
-//
+// system
+@import 'system/vars';
+@import 'system/mixins';
+
+// blocks
+@import 'block/default';
+@import 'block/main';
+@import 'block/form';
+@import 'block/article';
+@import 'block/pagination';

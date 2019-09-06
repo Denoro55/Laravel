@@ -1,0 +1,22 @@
+.form {
+	&__block {
+		margin-bottom: 10px;
+	}
+}
+
+input, textarea {
+	width: 100%;
+	padding: 6px 8px;
+	border: 1px solid #ddd;
+	@include placeholder(#ddd, 14px);
+}
+
+textarea {
+	resize: none;
+}
+
+input[type="submit"] {
+	&:hover {
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,162 @@
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  margin: 0 15px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links > a.active {
+  color: #5099f1;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.nav {
+  justify-content: center;
+}
+
+.nav__block {
+  padding-bottom: 60px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.main {
+  text-align: center;
+}
+
+.main__nav {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.form__block {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ddd;
+  font-size: 14px;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ddd;
+  font-size: 14px;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ddd;
+  font-size: 14px;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ddd;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.articles__table {
+  margin-bottom: 20px;
+}
+
+.article-new__form {
+  width: 400px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.page-item .page-link {
+  background-color: #ddd;
+  padding: 5px 8px;
+  color: #FFF;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.page-item.active .page-link {
+  background-color: #5099f1;
+}
+

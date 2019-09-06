@@ -1,0 +1,16 @@
+.articles {
+    &__table {
+        margin-bottom: 20px;
+    }
+}
+
+.article-new {
+    &__form {
+        width: 400px;
+    }
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
